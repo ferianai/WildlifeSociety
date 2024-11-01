@@ -246,6 +246,24 @@ label #cancel{
 .subcontent-about-challenge{
     gap: 30px;    
 }
+/* read more */
+.readmore {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    background: red;
+    transition: height 2s;
+    display: flex;
+    z-index: 1;
+    background-image: url(img/galery5.jpg);
+    background-size: contain;
+  }
+  
+  .readmore:hover {
+    height: 300px;
+  }
+
+
 /* about end */
 
 /* project start */
@@ -428,16 +446,14 @@ textarea{
 .media-body{
     padding-bottom: 10px;
 }
-.contact-item {
-    margin:23px 0px;
+.contactitem i {
+    font-size: 30px;
 }
-.contact-item i {
-    font-size: 20px;
-}
-.contact-item p {
+.contactitem p {
     line-height: 20px;
-    margin: 0;
-    font-size: 14px;
+    margin: 2;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
 .container-form {
@@ -620,8 +636,8 @@ textarea{
         text-align: center;
     }
 
-}
-    
+}    
+
 /* media end */
 
 /* scrol button */
