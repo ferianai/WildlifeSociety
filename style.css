@@ -449,6 +449,16 @@ textarea{
     border-radius: 10px;
 }
 
+.mapouter{
+    position:relative;
+    text-align:left;
+    width:100%;
+}
+
+.gmap_iframe {
+    width:100%!important;height:226px!important;
+}
+
 /* contact end */
 
 /* footer */
@@ -602,7 +612,6 @@ textarea{
     .footer p{
         text-align: center;
     }
-
 }
     
 /* media end */
